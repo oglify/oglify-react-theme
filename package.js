@@ -13,7 +13,7 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom("2.5.3");
   api.use("ecmascript");
-  api.mainModule("oglify-react-theme.js", "server");
+  api.mainModule("oglify-react-theme.js");
 });
 
 Package.onTest(function (api) {
