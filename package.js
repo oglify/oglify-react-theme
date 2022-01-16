@@ -1,5 +1,5 @@
 Package.describe({
-  name: "react-theme",
+  name: "oglify:react-theme",
   version: "0.0.1",
   summary: "CSS themes for OGLify React",
   git: "https://github.com/oglify/oglify-react-theme",
@@ -13,7 +13,7 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom("2.5.3");
   api.use("ecmascript");
-  api.mainModule("oglify-react-theme.js");
+  api.mainModule("oglify-react-theme.js", "server");
 });
 
 Package.onTest(function (api) {
