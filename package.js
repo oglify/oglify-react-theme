@@ -1,6 +1,6 @@
 Package.describe({
   name: "oglify:react-theme",
-  version: "0.0.1",
+  version: "0.0.2",
   summary: "CSS themes for OGLify React",
   git: "https://github.com/oglify/oglify-react-theme",
   documentation: "README.md",
